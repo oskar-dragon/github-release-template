@@ -1,5 +1,5 @@
-describe('Testing', () => {
-  it('should pass Ci', () => {
+describe('test', () => {
+  it('should pass CI', () => {
     expect(1).toBe(1);
   });
 });

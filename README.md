@@ -1,15 +1,13 @@
 ### Package Release Template
 
-This is a template that I use for Typescript packages.
+This is a template that we use for backend packages.
 
 It uses
 
-- changesets
-- prettier
-- tsup
+- esbuild for bundling
+- tsx for running your code locally
 - typescript
-- vitest
-- tsx
+- jest for testing
 
 ### Steps after cloning this template
 
@@ -17,7 +15,6 @@ It uses
 
 To be able to use `changesets` and create a PR when there's a changesets file, you have to change settings in your repository
 <img width="1237" alt="Screenshot 2023-12-19 at 22 30 45" src="https://github.com/oskar-dragon/package-release-template/assets/32719913/89d8659c-3589-49da-889e-05f282aface6">
-
 
 #### Add NPM secret for actions
 

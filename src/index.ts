@@ -1,3 +1,7 @@
-export const hello = () => {
-  console.log('hello');
+export type Message = string;
+
+export const helloWorld = (message: Message) => {
+  console.log(`Hello, ${message}!`);
 };
+
+helloWorld('Pfida!!!!');
