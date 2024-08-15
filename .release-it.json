@@ -14,5 +14,8 @@
     "publishConfig": {
       "registry": "https://npm.pkg.github.com"
     }
+  },
+  "hooks": {
+    "before:init": ["git fetch --tags"]
   }
 }
