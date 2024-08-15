@@ -5,7 +5,16 @@
     "web": true,
     "autoGenerate": true
   },
+  "git": {
+    "requireCleanWorkingDir": false,
+    "commitMessage": "chore: release v${version}",
+    "tagName": "v${version}",
+    "push": true
+  },
   "npm": {
-    "ignoreVersion": true
+    "ignoreVersion": true,
+    "publishConfig": {
+      "registry": "https://npm.pkg.github.com"
+    }
   }
 }
