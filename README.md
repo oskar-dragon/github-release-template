@@ -10,5 +10,3 @@ It uses
 - jest for testing
 
 ### Steps after cloning this template
-
-Hello!?
