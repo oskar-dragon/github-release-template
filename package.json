@@ -3,6 +3,7 @@
   "version": "0.1.1",
   "description": "",
   "type": "module",
+  "private": true,
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -43,6 +44,6 @@
     "zx": "^8.1.4"
   },
   "publishConfig": {
-    "@oskar-dragon:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   }
 }
