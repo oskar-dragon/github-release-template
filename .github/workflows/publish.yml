@@ -22,6 +22,7 @@ jobs:
         with:
           node-version: 'lts/iron'
           registry-url: 'https://npm.pkg.github.com'
+          scope: "@${{ github.repository_owner }}"
 
       - name: git config
         run: |
