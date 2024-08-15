@@ -1,5 +1,5 @@
 {
-  "name": "@pfida/package-name",
+  "name": "@herrschd/package-name",
   "version": "0.0.1",
   "description": "",
   "type": "module",
@@ -20,7 +20,7 @@
   "files": [
     "dist"
   ],
-  "author": "Pfida",
+  "author": "Herrschade",
   "license": "ISC",
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
