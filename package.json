@@ -3,7 +3,6 @@
   "version": "0.1.4",
   "description": "",
   "type": "module",
-  "private": true,
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
